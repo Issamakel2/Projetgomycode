@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+</head>
+<body>
+
+    
+    <!-- Barre de Navigation -->
+    <nav>
+        <ul>
+            <li><a href="portfolio.html">Accueil</a></li>
+            <li><a href="#apropos">À propos</a></li>
+            <li><a href="#travail">Travail</a></li>
+            <li><a href="#cv">CV</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+     <!-- Section à propos -->
+     <section>
+        <h2 id="apropos"><u>À propos</u></h2> 
+        <p>
+        Enseignant vacataire, chercheur passionné en physique et ingénieur polyvalent en 
+        informatique, je m'engage à repousser les frontières de la connaissance et de la technologie. 
+        Mon parcours hybride entre l'enseignement supérieur et l'industrie informatique m'a doté d'une 
+        vision unique, où théorie et pratique se rencontrent pour façonner l'avenir.<br>
+        </p>
+     </section>
+
+
+     <!-- Section travail -->
+     <section>
+        <h2 id="travail"><u>Travail</u></h2> 
+        <h3><i>Présentation</i></h3>
+        <div>
+            <video controls src="./Presntation.mp4" width="320" height="240"></video>
+        </div>
+        <h3><i>Mes Projets</i></h3>
+        <div>
+            <img src="./imgcour.jpg" alt="imgcour.jpg" width="320" height="240">
+            <p>Description du Projet 1</p>
+            <a href="projet1.html">Voir le projet</a>
+        </div>
+        <div>
+            <img src="./iminfo.jpeg" alt="iminfo.jpg" width="320" height="240">
+            <p>Description du Projet 2</p>
+            <a href="projet2.html">Voir le projet</a>
+        </div>
+     </section>
+
+
+     <!-- Section CV -->
+     <section>
+        <h2 id="cv"><u>Curriculum Vitae</u></h2> 
+
+        <!-- Informations Personnelles -->
+
+        <h3>Informations Personnelles</h3>
+        <ul>
+            <li>Prénom / Nom : Ibrahima NIANG</li>
+            <li>Date et Lieu de Naissance : 15/01/1990 à Ndayane</li>
+        </ul> 
+
+         <!-- Expériences Professionnelles -->
+         
+         <h3>Expériences Professionnelles</h3>
+         <ul>
+            <li><b>Senegal Global Consulting : </b><i>Developpeur Web</i></li>
+            <li><b>2022 - Jusqu'à Présent</b> <i>- Enseignant-Vacataire en Physique </i></li>
+         </ul>
+       <!-- Formations academiques -->
+
+       <h3>Formations academiques</h3>
+       <ul>
+          <li>
+            <b>2021-2023 :</b><i>Diplome Ingenieur technologue en informatique </i>
+        </li>
+          <li><b>2014-2016 :</b> <i> Master en Energie Solaire </i></li>
+       </ul>
+
+       <!-- Competences -->
+       <h3>Competences</h3>
+       <ul>
+          <li>Langages de programmation: HTML, CSS, JavaScript, etc.</li>
+          <li>Outils: Photoshop, Illustrator, Git, etc.</li>
+       </ul>
+
+     </section>
+
+
+     <!-- Contact -->
+     <section>
+        <h2 id="contact"><u>Contactez-moi</u></h2> 
+        <form>
+           <div>
+               <label for="prenom">Prénom</label>
+               <input type="text" id="prenom" name="prenom" placeholder="Prénom" required="required">
+           </div>
+           <br>
+           <div>
+               <label for="nom">Nom</label>
+               <input type="text" id="nom" name="nom" placeholder="Nom" required="required">
+           </div>
+           <br>
+           <div>
+               <label for="email">Email</label>
+               <input type="email" id="email" name="email" placeholder="email" required="required">
+           </div>
+           <br>
+           <div>
+                <label for="numero">Numéro Téléphone</label>
+                <input type="number" id="numero"  name="number" placeholder="Téléphone" required="required">
+           </div>
+           <br>
+           <div>
+                <label for="message">Message : </label>
+                <textarea id="message"  cols="50" rows="2"></textarea>
+           </div>
+           <br>
+           <div>
+               <input type="submit" value="Envoyer">
+               <input type="reset"  value="Effacer">
+           </div>
+        </form>
+     </section>
+
+     <!-- Pied de page -->
+
+    
+         <footer> <p>&copy; 2024 Mon Portfolio</p></footer>
+     
+
+</body>
+</html>
